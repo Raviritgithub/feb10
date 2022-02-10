@@ -1,0 +1,8 @@
+student=input('enter the name:')
+ds=int(input('ds marks:'))
+dbms=int(input('dbms marks'))
+maths=int(input('maths marks:'))
+if(ds>=35 and dbms>=35 and maths>=35):
+    print('pass')
+else:
+    print('fail')
